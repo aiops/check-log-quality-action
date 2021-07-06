@@ -1,4 +1,4 @@
-name: misspell
+name: check-log-quality
 
 on:
   - push

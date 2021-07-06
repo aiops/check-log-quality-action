@@ -1,4 +1,4 @@
-# 
+# check-log-quality-action
 
  <a href="https://logsight.ai/"><img src="https://logsight.ai/assets/images/logsight_logo.png" width="150"/></a>
 

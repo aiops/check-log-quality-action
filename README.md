@@ -2,14 +2,14 @@
 
  <a href="https://logsight.ai/"><img src="https://logsight.ai/assets/images/logsight_logo.png" width="150"/></a>
 
-Checks the semantic and synthactic quality of log messages in your code!
+Checks the semantic and syntactic quality of log messages in your code!
 
 Based on [check-log-quality](https://github.com/aiops/check-log-quality) tool.
 
 
 ## Usage
 
-By using a pipeline of two actions we are able to identify badly written log messages.
+By using a pipeline of two actions, we can identify poorly written log messages.
 
 Here is how the configuration looks like:
 
@@ -21,7 +21,7 @@ Here is how the configuration looks like:
 How it works:
 
 1. The first [`actions/checkout@v2`](https://github.com/actions/checkout) action checkouts our code from the repo
-2. Our own `aiops/check-log-quality-action` finds abdly written log messages and creates a report
+2. Our own `aiops/check-log-quality-action` finds poorly written log messages and creates a report
 4. Done!
 
 Here's how our [workflow looks like](https://github.com/aiops/check-log-quality-action/blob/main/.github/workflows/check-log-quality.yml).
@@ -30,7 +30,7 @@ Here's how our [workflow looks like](https://github.com/aiops/check-log-quality-
 ## Options and outputs
 
 You can pass any options that are supported by `check-log-quality` tool,
-to do so you can use `options` key:
+to do so, you can use `options` key:
 
 ```yml
 - uses: aiops/check-log-quality-action@main

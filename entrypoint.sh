@@ -6,7 +6,7 @@ echo '============================='
 echo
 
 # Runs misspell-fixes:
-output=$(/check-log-quality/check-log-quality $INPUT_OPTIONS)
+output=$(/work/check-log-quality $INPUT_OPTIONS)
 status="$?"
 
 # Sets the output variable for GitHub Action API:

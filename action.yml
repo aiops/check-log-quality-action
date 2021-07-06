@@ -14,7 +14,7 @@ inputs:
   options:
     description: 'Any options for check-log-quality tool'
     required: false
-    default: '-v ./source'
+    default: '-v .'
 outputs:
   output:
     description: 'The output of check-log-quality run'

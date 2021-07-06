@@ -1,0 +1,26 @@
+# This is a definition file for a GitHub Action.
+# See: https://help.github.com/en/articles/creating-a-docker-container-action
+
+# We also define metadata here:
+# See: https://help.github.com/en/articles/metadata-syntax-for-github-actions
+
+name: 'check-log-quality-action'
+description: 'Runs check-log-quality as a GitHub Action'
+branding:
+  icon: 'bookmark'
+  color: 'green'
+
+inputs:
+  options:
+    description: 'Any options for check-log-quality tool'
+    required: false
+    default: '-v ./source'
+outputs:
+  output:
+    description: 'The output of check-log-quality run'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.options }}

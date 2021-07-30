@@ -8,7 +8,7 @@
 # use it instead:
 # https://hub.docker.com/r/logsightaihub/check-log-quality
 
-FROM logsightaihub/check-log-quality:test
+FROM logsightaihub/check-log-quality:latest
 
 # Metadata:
 LABEL maintainer="logsight.ai"

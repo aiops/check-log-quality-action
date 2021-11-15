@@ -1,6 +1,6 @@
 # check-log-quality-action
 
- <a href="https://logsight.ai/"><img src="https://logsight.ai/assets/images/logsight_logo.png" width="150"/></a>
+ <a href="https://logsight.ai/"><img src="https://logsight.ai/assets/img/logol.png" width="150"/></a>
 
 Checks the semantic and syntactic quality of log messages in your code!
 
